@@ -130,10 +130,11 @@
     }
 
     footer{
-        padding: 0px 20px;
+        padding: 20px 20px;
     }
 
     .footer-content{
+        padding: 0px;
         display: grid;
         flex-direction: column;
         gap: 24px;
@@ -154,7 +155,7 @@
     }
 
     .bottom-footer-content{
-        padding: 10px 20px;
+        padding: 20px 20px;
         display: grid;
         gap: 8px;
     }
