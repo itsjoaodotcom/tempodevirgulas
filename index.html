@@ -13,12 +13,13 @@
     <header>
         <div class="topbar">
             <a href="index.html"><img src="imagens/logo-horizontal.svg" alt="logotipo"> </a>
-            <div class="burger-menu">
+            <div class="burger-menu" onclick="clickMenu()">
                 <img src="imagens/menu.svg" alt="">
                 <p class="text-menu-burger">Menu</p>
             </div>
         </div>
-        <div class="navigation-nav">
+        <div class="line-footer-bottom-footer-2"></div>
+        <div class="navigation-nav" id="menu">
             <ul>
                 <li><a class="link-navigation" href="#">Serviços</a></li>
                 <li><a class="link-navigation" href="#">Sobre</a></li>
@@ -128,5 +129,15 @@
             <p>Orgulhosamente criado por <a target="_blank" href="http://www.252.pt">Armazém 252</a></p>
         </div>
     </div>
+
+    <script>
+        function clickMenu(){
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
