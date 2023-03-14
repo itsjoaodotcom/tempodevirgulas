@@ -38,6 +38,8 @@
 
     .navigation-nav{
         display: none;
+        background-color: white;
+        height: 100vw;
     }
     .navigation-nav > ul{
         display: block;
