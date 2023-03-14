@@ -51,7 +51,7 @@
     .navigation-nav{
         display: none;
         background-color: white;
-        height: 100vw;
+        height: 100%;
     }
     .navigation-nav > ul{
         display: block;
@@ -89,26 +89,35 @@
     .hero{
         flex-wrap: wrap;
         padding: 80px 20px;
-        gap: 40px;
+        gap: 60px;
     }
 
     .hero-video{
-        width: 100vw;
+        width: 100%;
     }
 
     .section-services{
-        gap: 40px;
+        gap: 60px;
     }
     
     .section-services-background{
         padding: 80px 20px;
-        gap: 40px;
+        gap: 60px;
     }
     
     .list-tags-services{
         padding: 0px;
     }
 
+    .section-about{
+        padding: 80px 20px;
+        margin: 0px;
+        gap: 60px;
+    }
+
+    .section-about-images{
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (min-width: 800px) {
