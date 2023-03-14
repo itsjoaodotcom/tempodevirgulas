@@ -232,7 +232,7 @@ footer{
 }
 
 .footer-navigation > ul > li > a{
-    font-family: 'SF Pro';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 510;
     font-size: 16px;
@@ -267,7 +267,7 @@ footer{
 
 
 .bottom-footer-content > p{
-    font-family: 'SF Pro';
+    font-family: 'Footer';
     font-style: normal;
     font-weight: 510;
     font-size: 14px;
