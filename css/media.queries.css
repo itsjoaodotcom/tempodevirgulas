@@ -90,6 +90,7 @@
         flex-wrap: wrap;
         padding: 80px 20px;
         gap: 60px;
+        flex-direction: column-reverse;
     }
 
     .hero-video{
@@ -117,6 +118,15 @@
 
     .section-about-images{
         flex-wrap: wrap;
+    }
+
+    .section-about-images > img{
+        width: 92vw;
+        height: 100%;
+    }
+    
+    .section-about-images > div > img{
+        width: 92vw;
     }
 
     footer{
