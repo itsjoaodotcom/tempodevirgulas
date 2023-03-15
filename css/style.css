@@ -377,6 +377,10 @@ footer{
     margin: auto;
     padding: 120px 0px;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+
 }
 
 .section-tratamento{
@@ -387,6 +391,11 @@ footer{
     margin: auto;
     align-content: center;
     flex-wrap: wrap;
+    gap: 32px;
+}
+
+#tratamento02{
+    flex-direction: row-reverse;
 }
 
 .section-tratamento-copy{

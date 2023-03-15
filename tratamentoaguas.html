@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de Águas</title>
+    <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.queries.css">
+</head>
+<body onresize = "changesize()">
+    <header>
+        <div class="topbar">
+            <a href="index.html"><img src="imagens/logo-horizontal.svg" alt="logotipo"> </a>
+            <div class="burger-menu" onclick="clickMenu()">
+                <img src="imagens/menu.svg" alt="">
+                <p class="text-menu-burger">Menu</p>
+            </div>
+        </div>
+        <div class="line-footer-bottom-footer-2"></div>
+        <div class="navigation-nav" id="menu">
+            <ul>
+                <li><a class="link-navigation" href="tratamentoaguas.html">Tratamento de Águas</a></li>
+                <li><a class="link-navigation" href="piscinas.html">Piscinas</a></li>
+                <li><a class="link-navigation" href="jardins.html">Jardins</a></li>
+                <li><a class="link-navigation" href="sobre.html">Sobre</a></li>
+                <li><a class="button-solid-navigation" href="contactos.html">Contactar</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--Hero Tratamento Águas-->
+
+    <div class="section-hero-pages">
+        <div class="section-about-copy">
+            <h2>Tratamento de Águas</h2>
+            <P>No verão, ter uma piscina em casa é o melhor que pode acontecer. No entanto, é preciso cuidar bem da sua piscina para que ela esteja sempre limpa. Na tempo de virgulas encontra todo o material necessário para a limpeza e manutenção da sua Piscina.</P>
+        </div>
+        <div class="section-hero-images">
+            <img src="imagens/hero-image-pages.png" alt="">
+        </div>
+    </div>
+
+    <!--Tratamento Águas-->
+
+    <div class="section-calcario">
+        <div class="section-about-copy">
+            <h2>Muitos portugueses têm problemas com o calcário e ferro na água.</h2>
+            <P>No verão, ter uma piscina em casa é o melhor que pode acontecer. No entanto, é preciso cuidar bem da sua piscina para que ela esteja sempre limpa. Na tempo de virgulas encontra todo o material necessário para a limpeza e manutenção da sua Piscina.</P>
+        </div>
+    </div>
+    <div class="section-cards">
+        <div class="cards-agua">
+            <div class="card-agua">
+                <h5 class="title-min">O calcário corrói as nossas instalações da água</h5>
+                <p>Depois de alguns anos a pressão da água das nossas casas ou empresas pode reduzir pelo calcário cerca de 50% ou até mais em alguns casos. Todas a maquinaria que directa ou indirectamente tenha contacto com estas águas terão um limite de vida curto. Também a energia aumenta com o excesso de calcário? Só ½ mm de calcário depositado faz aumentar o consumo em 10% e ao longo dos anos pode mesmo aumentar até 70-80%.</p>
+            </div>
+
+            <div class="card-agua">
+                <h5 class="title-min">Qual é a solução para este problema?</h5>
+                <p>A tempo de virgulas disponibiliza aparelhos com a capacidade de retirar o calcário e ferro da água de uma forma completamente automática sem auxílio de químicos. Desta forma a poderá continuar a ser usada para consumo humano tanto para beber como cozinhar.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Section_content-tratamento-->
+
+    <div class="section-tratamento-background">
+        <div class="section-tratamento">
+            <div class="section-tratamento-copy">
+                <h3>U.V.</h3>
+                <P>Um procedimento cada vez mais usado no mundo inteiro para purificar águas domésticas e empresariais.
+
+                    A água purificada por osmose inversa é a solução ideal. Permite suprimir as embalagens de água e dispor de vários litros de água pura por dia.
+                    
+                    Podemos beber uma água muito boa para a saúde, lavar os legumes, as saladas, cozinhar igualmente os alimentos e preparar as diversas bebidas. Todos os utilizadores desta tecnologia estão muito satisfeitos por reencontrarem o verdadeiro gosto dos alimentos, habitualmente alterado pelo cloro e outros produtos adicionados à água.</P>
+            </div>
+            <div class="section-tratamento-image">
+                    <img src="imagens/image14.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <a href="index.html"><img src="imagens/logo-horizontal-white.svg" alt=""></a>
+            </div>
+            <div class="footer-navigation">
+                <ul>
+                    <li><a href="tratamentoaguas.html">Tratamento de Águas</a></li>
+                    <li><a href="piscinas.html">Piscinas</a></li>
+                    <li><a href="jardins.html">Jardins</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contactos.html">Contactos</a></li>
+                </ul>
+            </div>
+            <div class="footer-icons-social-media">
+                <ul>
+                    <li><a href="http://www.facebook.com"><img src="imagens/facebook.svg" alt=""></a></li>
+                    <li><a href="http://www.instagram.com"><img src="imagens/instagram.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--Linha-a-separar-->
+    
+    <div class="line-footer-bottom-footer"></div>
+
+    <!--Bottom-footer-->
+
+    <div class="bottom-footer">
+        <div class="bottom-footer-content">
+            <p>2022 © All rights reserved Tempo de Vírgulas Unipessoal Lda</p>
+            <p>Orgulhosamente criado por <a target="_blank" href="http://www.252.pt">Armazém 252</a></p>
+        </div>
+    </div>
+
+    <script>
+        function changesize(){
+            if (window.innerWidth >= 800){
+                menu.style.display = 'flex'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+
+        function clickMenu(){
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
