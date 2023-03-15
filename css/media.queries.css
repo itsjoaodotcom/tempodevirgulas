@@ -1,7 +1,70 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-@media screen and (max-width: 800px){
+
+@media screen and (max-width: 1436px){
+    header{
+        padding: 20px;
+        margin: 0px;
+    }
+
+    .hero{
+        padding: 120px 40px;
+    }
+
+    .section-services-background{
+        padding: 120px 40px;
+    }
+
+    footer{
+        padding: 0px 20px;
+    }
+
+    .bottom-footer{
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 1222px){
+    header{
+        padding: 20px;
+        margin: 0px;
+    }
+
+    footer{
+        padding: 0px 20px;
+    }
+
+    .bottom-footer{
+        padding: 0px 20px;
+    }
+
+    .hero-video{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1156px){
+
+    .section-services{
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    .section-services-tags > ul{
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 980px){
+
+    .hero{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 840px){
 
     body{
         margin: 0px;
@@ -15,6 +78,11 @@
     h2{
         font-size: 34px;
         line-height: 40px;
+    }
+
+    h3{
+        font-size: 28px;
+        line-height: 34px;
     }
 
     header{
@@ -189,7 +257,9 @@
     
 }
 
-@media screen and (min-width: 800px) {
+
+
+@media screen and (min-width: 840px) {
     .burger-menu{
         display: none;
     }
