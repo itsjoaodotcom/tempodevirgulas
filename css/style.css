@@ -30,6 +30,15 @@ h2{
     margin: 0px;
 }
 
+h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0px;
+}
+
 p{
     font-family: 'Inter';
     font-style: normal;
@@ -331,8 +340,6 @@ footer{
     display: flex;
     flex-direction: row;
     max-width: 1188px;
-    align-items: flex-start;
-    justify-content: flex-start;
     gap: 32px;
 }
 
@@ -350,6 +357,9 @@ footer{
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.04);
     border-radius: 16px;
     padding: 32px;
+    width: fit-content;
+    height: fit-content;
+
 }
 
 .title-min{
@@ -360,4 +370,33 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+}
+
+.section-tratamento-background{
+    background-color: rgba(0, 98, 161, 0.04);
+    margin: auto;
+    padding: 120px 0px;
+    justify-content: center;
+}
+
+.section-tratamento{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    max-width: 1188px;
+    margin: auto;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.section-tratamento-copy{
+    max-width: 578px;
+    gap: 24px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.section-tratamento-image > img{
+    width: 100%;
 }
