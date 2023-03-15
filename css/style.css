@@ -189,6 +189,7 @@ header{
     gap: 120px;
 }
 
+
 .section-about-copy{
     display: flex;
     flex-direction: column;
@@ -287,4 +288,76 @@ footer{
 .bottom-footer-content > p > a{
     text-decoration: underline;
     color: hwb(0 100% 0% / 0.506);
+}
+
+/*
+    Tratamento Águas
+*/
+
+.section-hero-images{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-hero-images > img{
+    width: 100%;
+}
+
+.section-hero-pages{
+    margin: auto;
+    padding: 120px 0px;
+    display: grid;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.section-calcario{
+    margin: auto;
+    padding: 0px 0px;
+    display: grid;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.section-cards{
+    display: flex;
+    margin: auto;
+    padding: 120px 0px;
+    justify-content: center;
+}
+
+.cards-agua{
+    display: flex;
+    flex-direction: row;
+    max-width: 1188px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.card-agua{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* neutral/white */
+
+    background: #FFFFFF;
+    /* light/soft */
+
+    border: 1px solid rgba(20, 20, 31, 0.04);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.title-min{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
