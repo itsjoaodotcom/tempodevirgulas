@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.queries.css">
+</head>
+<body onresize = "changesize()">
+    <header>
+        <div class="topbar">
+            <a href="index.html"><img src="imagens/logo-horizontal.svg" alt="logotipo"> </a>
+            <div class="burger-menu" onclick="clickMenu()">
+                <img src="imagens/menu.svg" alt="">
+                <p class="text-menu-burger">Menu</p>
+            </div>
+        </div>
+        <div class="line-footer-bottom-footer-2"></div>
+        <div class="navigation-nav" id="menu">
+            <ul>
+                <li><a class="link-navigation" href="tratamentoaguas.html">Tratamento de Águas</a></li>
+                <li><a class="link-navigation" href="piscinas.html">Piscinas</a></li>
+                <li><a class="link-navigation" href="jardins.html">Jardins</a></li>
+                <li><a class="link-navigation" href="sobre.html">Sobre</a></li>
+                <li><a class="button-solid-navigation" href="contactos.html">Contactar</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--Hero Tratamento Águas-->
+
+    <div class="section-hero-pages">
+        <div class="section-about-copy">
+            <h2>Quem somos</h2>
+            <P>Tempo de Vírgulas é uma marca com mais de 20 anos de experiência em sistemas de filtragem de tratamentos de águas no mercado.<br>
+            <br>
+            A Tempo de Vírgulas utiliza o sistema de Osmose Inversa, que é considerado o mais avançado do mundo em termos de tratamento de água para consumo humano. Utiliza os mais diversos equipamentos de filtragem através de leito filtrante; Descalcificação; Desferrização; Osmose Industrial e tratamentos bacteriológicos através de cloração ou de Ultravioleta. <br> <br>
+            
+            Estamos localizados em Vila Nova de Santo André, concelho de Santiago do Cacém, e prestamos serviço em toda a região Centro e Sul, com uma vasta carteira de clientes, nacionais e estrangeiros, empresas e particulares, que confiam no nosso serviço e na nossa experiência.</P>
+        </div>
+        <div class="section-hero-images">
+            <img src="imagens/image-19.png" alt="">
+        </div>
+    </div>
+
+    <!--Footer-->
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <a href="index.html"><img src="imagens/logo-horizontal-white.svg" alt=""></a>
+            </div>
+            <div class="footer-navigation">
+                <ul>
+                    <li><a href="tratamentoaguas.html">Tratamento de Águas</a></li>
+                    <li><a href="piscinas.html">Piscinas</a></li>
+                    <li><a href="jardins.html">Jardins</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contactos.html">Contactos</a></li>
+                </ul>
+            </div>
+            <div class="footer-icons-social-media">
+                <ul>
+                    <li><a href="http://www.facebook.com"><img src="imagens/facebook.svg" alt=""></a></li>
+                    <li><a href="http://www.instagram.com"><img src="imagens/instagram.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--Linha-a-separar-->
+    
+    <div class="line-footer-bottom-footer"></div>
+
+    <!--Bottom-footer-->
+
+    <div class="bottom-footer">
+        <div class="bottom-footer-content">
+            <p>2022 © All rights reserved Tempo de Vírgulas Unipessoal Lda</p>
+            <p>Orgulhosamente criado por <a target="_blank" href="http://www.252.pt">Armazém 252</a></p>
+        </div>
+    </div>
+
+    <script>
+        function changesize(){
+            if (window.innerWidth >= 840){
+                menu.style.display = 'flex'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+
+        function clickMenu(){
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
