@@ -292,6 +292,7 @@
     }
     
     .section-contacts{
+        flex-direction: column-reverse;
         flex-wrap: wrap;
         left: 0%;
         gap: 48px;
@@ -301,6 +302,7 @@
     }
 
     .formulario{
+        flex-direction: row-reverse;
         margin: 0px;
         width: 100%;
     }
