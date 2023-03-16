@@ -81,6 +81,10 @@
         justify-content: left;
     }
 
+    .section-contacts{
+        padding: 120px 20px;
+    }
+
 }
 
 @media screen and (max-width: 980px){
@@ -88,6 +92,10 @@
     .hero{
         flex-wrap: wrap;
         flex-direction: column-reverse;
+    }
+
+    .section-contacts{
+        padding: 120px 20px;
     }
 }
 
@@ -283,6 +291,27 @@
         gap: 32px;
     }
     
+    .section-contacts{
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        margin: auto;
+        justify-content: center;
+        padding: 120px 0px;
+        gap: 48px;
+        padding: 120px 20px;
+        width: 100%;
+    }
+
+
+    .formulario{
+        display: flex;
+        width: 100%;
+    }
+
+    .form-content{
+        width: 100%;
+    }
+
 }
 
 
