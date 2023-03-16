@@ -293,28 +293,26 @@
     
     .section-contacts{
         flex-wrap: wrap;
-        flex-direction: row-reverse;
-        margin: auto;
-        justify-content: center;
-        padding: 120px 0px;
+        left: 0%;
         gap: 48px;
-        padding: 120px 20px;
-        width: 100%;
+        padding: 80px 20px;
+        margin: auto;
+        width: fit-content;
     }
 
-
     .formulario{
-        display: flex;
+        margin: 0px;
         width: 100%;
     }
 
     .form-content{
-        width: 100%;
+        display: flex;
     }
 
+    .section-thanks{
+        padding: 120px 20px;
+    }
 }
-
-
 
 @media screen and (min-width: 840px) {
     .burger-menu{

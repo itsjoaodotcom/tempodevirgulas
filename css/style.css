@@ -227,7 +227,6 @@ footer{
     position: ab;
     background-color: #001929;
     bottom: 0;
-    width: 100%;
 }
 
 .footer-content{
@@ -449,6 +448,7 @@ label{
 
 .input01:hover{
     border: 1px solid rgb(128, 128, 131);
+
 }
 
 .input01:focus{
