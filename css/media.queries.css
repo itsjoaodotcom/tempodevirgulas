@@ -304,13 +304,12 @@
     .formulario{
         flex-direction: row-reverse;
         margin: 0px;
-        width: fit-content;
+        width: 80vw;
     }
 
     .form-content{
         display: flex;
     }
-
 
     .section-thanks{
         padding: 120px 20px;
