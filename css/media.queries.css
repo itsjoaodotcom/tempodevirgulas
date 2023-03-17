@@ -304,18 +304,13 @@
     .formulario{
         flex-direction: row-reverse;
         margin: 0px;
-        width: 100%;
+        width: fit-content;
     }
 
     .form-content{
         display: flex;
-        width: fit-content;
     }
 
-
-    .textarea01{
-        width: fit-content;
-    }
 
     .section-thanks{
         padding: 120px 20px;
