@@ -494,3 +494,19 @@ label{
     padding: 120px 0px 240px 0px;
     gap: 48px;
 }
+
+/* 404 PAGE */
+
+
+.div404{
+    padding: 300px 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.p404{
+    text-align: center;
+}
