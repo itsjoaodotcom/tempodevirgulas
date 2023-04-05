@@ -33,62 +33,39 @@
 
     <!--Section-Form-->
 
-    <form
-  action="https://formspree.io/f/mwkjrjde?redirect=https://www.tempodevirgulas.pt/enviado.html"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Contacto
-    <input type="tel" name="tel">
-  </label>
-  <label>
-    Your email:
-    <input type="text" name="service">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+        <div class="section-form">
+            <form class="formulario" action="https://formspree.io/f/mwkjrjde" method="POST">
 
-       <!--Section-Form-->
-       
-
-    <section class="section-contacts">
-        <div class="formulario">
-            <form class="form-content" action="https://api.staticforms.xyz/submit" method="post">
-                <label>Nome</label>
-                <input class="input01" type="text" name="name" placeholder="Nome" autocomplete="off" required>
-                <label>Serviço</label>
-                <input class="input01" type="text" name="name" placeholder="Serviço" autocomplete="off" required>
-                <label>Email</label>
-                <input class="input01" type="email" name="email" placeholder="Email" autocomplete="off" required>
-                <label>Telefone</label>
-                <input class="input01" type="tel" name="tel" placeholder="Telefone" autocomplete="off" required>
-                <label>Mensagem</label>
-                <textarea  class="textarea01" class="input01"  name="message" cols="30" rows="10" placeholder="Mensagem" required></textarea>
-                <button class="button-solid-form" type="submit">Enviar</button>
-                <input class="input01" type="hidden" name="accessKey" value="64ff8dcf-dc8e-4091-83a9-a7719559edc6">
-                <input class="input01" type="hidden" name="redirectTo" value="https://www.tempodevirgulas.pt/enviado.html">
-            </form>
-        </div>
-        <div class="hero-content">
-            <h1>Entre em contacto connosco.</h1>
-            <div>
-                <p>Pode-nos também contactar pelos meios alternativos.</p>
-                <br>
-                <p>geral@tempodevirgulas.pt</p> <br>
-                <p>967 856 367</p>
+            <div class="input-form">
+                <label>Nome <span>*</span></label>
+                <input class="input01" type="text" name="name" placeholder="Nome" required>
             </div>
-        </div>
-    </section>
 
+            <div class="input-form">
+                <label>Email <span>*</span></label>
+                <input class="input01" type="email" name="email" placeholder="Email" required>
+            </div>
+
+            <div class="input-form">
+                <label>Telefone <span>*</span></label>
+                <input class="input01" type="tel" name="phone" placeholder="Telefone" required>
+            </div>
+
+            <div class="input-form">
+                <label>Serviço </label>
+                <input class="input01" type="text" name="service" placeholder="Serviço" required>
+            </div>
+            
+            <div class="input-form">
+                <label>Mensagem</label>
+                <textarea class="input01" name="message" placeholder="Mensagem" required></textarea>
+            </div>
+            <!-- your other form fields go here -->
+            
+            <button class="button-solid-form" type="submit">Enviar mensagem</button>
+            </form>
+                </div>
+        </div>
 
     <!--Footer-->
 

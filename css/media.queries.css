@@ -81,10 +81,6 @@
         justify-content: left;
     }
 
-    .section-contacts{
-        padding: 120px 20px;
-    }
-
 }
 
 @media screen and (max-width: 980px){
@@ -92,10 +88,6 @@
     .hero{
         flex-wrap: wrap;
         flex-direction: column-reverse;
-    }
-
-    .section-contacts{
-        padding: 120px 20px;
     }
 }
 
@@ -311,8 +303,8 @@
         display: flex;
     }
 
-    .section-thanks{
-        padding: 120px 20px;
+    .section-form{
+        padding: 80px 20px;
     }
 }
 
