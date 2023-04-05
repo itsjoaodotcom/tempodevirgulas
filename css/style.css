@@ -416,10 +416,20 @@ footer{
     padding: 120px 0px;
 }
 
+.form-content{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    max-width: 1188px ;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
 .formulario{
     display: flex;
     justify-content: left;
-    max-width: 1188px;
+    max-width:500px;
     margin: auto;
     gap: 24px;
     flex-wrap: wrap;
@@ -432,6 +442,11 @@ footer{
     width: 100%;
     gap: 8px;
     flex-direction: column;
+}
+
+.contante-contacts{
+    font-size: 18px;
+    line-height: 140%;
 }
 
 label{
@@ -447,6 +462,12 @@ label{
     border-radius: 12px;
     font-size: 16px;
     font-family: 'inter';
+}
+
+.content-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .input01:hover{

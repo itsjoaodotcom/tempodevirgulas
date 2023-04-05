@@ -23,6 +23,10 @@
     .bottom-footer{
         padding: 0px 20px;
     }
+
+    .section-form{
+        padding: 80px 20px;
+    }
 }
 
 @media screen and (max-width: 1222px){
@@ -79,6 +83,10 @@
     .section-tratamento{
         flex-wrap: wrap;
         justify-content: left;
+    }
+
+    .section-form{
+        padding: 80px 20px;
     }
 
 }
@@ -282,25 +290,14 @@
     .section-tratamento{
         gap: 32px;
     }
-    
-    .section-contacts{
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-        left: 0%;
-        gap: 48px;
-        padding: 80px 20px;
-        margin: auto;
-        width: fit-content;
-    }
 
     .formulario{
-        flex-direction: row-reverse;
-        margin: 0px;
-        width: 85vw;
+        max-width: none;
     }
 
     .form-content{
-        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: left;
     }
 
     .section-form{
